@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- MOBILE SPECIFICATIONS -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+
+    <title></title>
+
+    <!-- FAVICON [WEB & APPLE] -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" media="screen">
+
+    <!-- MODERNIZR ( INCLUDE HTML5 SHIV ) -->
+    <!-- build:js js/first.js -->
+    <script src="js/lib/modernizr.js"></script>
+    <!-- endbuild -->
+</head>
+<body>
+    <!-- YOUR HTML HERE -->
+    <div id="wrapper">
+        
+    </div>
+    <!-- END YOUR HTML HERE -->
+
+    <!-- JS GLOBAL VARS -->
+    <script type="text/javascript">
+    <!--
+    -->
+    </script>
+
+    <script type='text/javascript' src="//wurfl.io/wurfl.js"></script>
+
+    <!-- LIBS -->
+    <!-- build:js js/lib.js -->
+    <script src="js/lib/jquery.js"></script>
+    <script src="js/lib/pxloader/PxLoader.js"></script>
+    <script src="js/lib/pxloader/PxLoaderImage.js"></script>
+    <script src="js/lib/loader.js"></script>
+    <!-- endbuild -->
+
+    <!-- APP -->
+    <!-- build:js js/app.js -->
+    <script src="js/log.js"></script>
+    <script src="js/app.js"></script>
+    <!-- endbuild -->
+
+    <!-- GOOGLE FONTS -->
+    <script>
+    WebFontConfig = {
+        google: { families: [ 'Open+Sans:300,400,600,800,300italic,400italic,600italic,800italic' ] },
+        active: function()
+        {
+        	start();
+        }
+    };
+
+    (function() {
+        var wf = document.createElement('script');
+        wf.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+        wf.type = 'text/javascript';
+        wf.async = 'true';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(wf, s);
+    })();
+    </script>
+</body>
+</html>

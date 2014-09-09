@@ -1,0 +1,31 @@
+{
+  "name": "ResponsiveSkeleton",
+  "version": "1.0.0",
+  "description": "responsive skeleton",
+  "main": "gulpfile.js",
+  "scripts": {},
+  "author": "Luis Miguel Sardon",
+  "license": "BSD",
+  "devDependencies": {
+    "gulp": "^3.8.6",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-usemin": "^0.3.3",
+    "gulp-uglify": "^0.2.1"
+  },
+  "dependencies": {
+    "gulp": "^3.8.8",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify": "^0.2.1",
+    "gulp-usemin": "^0.3.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/inqubadev/responsive-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/inqubadev/responsive-skeleton/issues"
+  },
+  "homepage": "https://github.com/inqubadev/responsive-skeleton"
+}

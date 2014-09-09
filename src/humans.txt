@@ -1,0 +1,9 @@
+/* TEAM */
+	Developer: Luis Miguel Sardon
+	Twitter: @lmsardon
+	From: Lima, Perú
+
+/* SITE */
+	Language: Spanish
+	Doctype: HTML5
+	IDE: Atom, FileZilla, Photoshop
